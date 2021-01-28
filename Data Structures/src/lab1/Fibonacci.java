@@ -7,7 +7,7 @@ public class Fibonacci {
 		System.out.println("fibonacci(" + N + ") is " + 
 				recursiveFibonacci(N) + " (recursively)");
 		System.out.println("fibonacci(" + N + ") is " + 
-				iterativeFibonacci(N) + " (non-recursively)");
+				iterativeFibonacci(N) + " (recursively)");				
 	}
 	
 	public static int recursiveFibonacci( int k ) {
